@@ -17,13 +17,13 @@ function Header() {
 				<div className={style.searchBox}>
 					<form>
 						<SearchIcon sx={{color: grey[500]}}/>
-						<input type={'search'} placeholder='Заведение, блюдо, товар или кухня'/>
-						<button>Search</button>
+						<input type={'text'} placeholder='Заведение, блюдо, товар или кухня'/>
+						<button>Найти</button>
 					</form>
 				</div>
 				<div className={style.locationBox}>
 					<div className={style.location}>
-						<PlaceOutlinedIcon sx={{color: grey[500]}}/>
+						<PlaceOutlinedIcon sx={{color: grey[700]}}/>
 						Сергели район, Содикжон Толипов
 					</div>
 				</div>
