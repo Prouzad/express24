@@ -1,0 +1,97 @@
+.headerBox{
+	width: 100vw;
+	height: 78px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	border-bottom: 1px solid #f6f6fb;
+	position: sticky;
+}
+
+.leftBox{
+	width: 50%;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+}
+
+.logo,img{
+	height: 49px;
+	width: 172px;
+}
+
+.searchBox form{
+	display: flex;
+	align-items: center;
+	font-size: 16px;
+	flex: 1;
+	font-size: 16px;
+	border: 1px solid #d1d1d6;
+	border-radius: 12px;
+	width: 100%;
+	padding: 4px 4px 4px 12px;
+
+}
+
+.searchBox input{
+	outline: none;
+	border: none;	
+	padding: 10px 20px;
+}
+
+.searchBox button{
+	border: none;	
+	background: #ffec00;
+	padding: 8px 12px;
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 18px;
+	cursor: pointer;
+	overflow: hidden;
+	width: fit-content;
+	border-radius: 12px;
+	letter-spacing: .2px;
+}
+
+.searchBox button:hover{
+	background: #e7e07c;
+
+}
+
+.locationBox{
+	max-width: 50%;
+	border-radius: 12px;
+	background: #ececf1;
+	border: none;
+	color: #1a1a18;
+	cursor: pointer;
+	overflow: hidden;
+	border-radius: 12px;
+	letter-spacing: .2px;
+	-webkit-tap-highlight-color: transparent;
+	transition: background .16s ease-in-out,color .16s ease-in-out;
+}
+
+.locationBox:hover{
+	background: #e2e2e8;
+}
+
+.location{
+	padding: 16px;
+	font-size: 16px;
+	font-weight: 600;
+	line-height: 20px;
+	display: flex;
+	align-items: center;
+}
+
+.rightBox{
+	width: 5%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	cursor: pointer;
+	border-left: 1px solid #f6f6fb;
+	color: rgb(122, 122, 122);
+}
