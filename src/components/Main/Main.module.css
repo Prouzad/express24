@@ -1,0 +1,42 @@
+.bodyBox{
+	width: 1144px;
+	margin: auto;
+	margin-top: 50px;
+}
+
+.SecondBoxTitle{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.shoAllBtn{
+	display: flex;
+	align-items: center;
+	font-size: 16px;
+	cursor: pointer;
+	color: #8e8e93;
+}
+
+.title{
+	display: flex;
+}
+
+.btnsBox{
+	width: 95;
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 45px;
+}
+
+.btns{
+	display: flex;
+	gap: 14px;
+}
+
+.cardsBox{
+	display: flex;
+	flex-wrap: wrap;
+	width: 100%;
+	gap: 36px;
+}

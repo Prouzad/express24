@@ -1,0 +1,11 @@
+.btnBox{
+	display: inline-block;
+	background-color: #ebebf1;
+	padding: 15px;
+	border-radius: 14px 16px;
+	cursor: pointer;
+}
+
+.btnBox:hover{
+	background: #e2e2e8;
+}

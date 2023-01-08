@@ -1,0 +1,48 @@
+.footer{
+	width: 100%;
+	padding: 40px 0px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: #e9e9e9;
+}
+
+.footerContainer{
+	height: 94px;
+	width: 70%;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+.navBox{
+	display: flex;
+	
+}
+
+.navs{
+	margin-right: 25px;
+	color: #8e8e93;
+}
+
+.bottomBox{
+	display: flex;
+	justify-content: space-between;
+	color: #8e8e93;
+}
+
+.social{
+	display: flex;
+	align-items:center;
+}
+
+.socials{
+	width: 18px;
+	height: 18px;
+	margin-right: 10px;
+}
+
+.socials img{
+	width: 100%;
+	height: 100%;
+}

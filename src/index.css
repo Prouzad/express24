@@ -5,9 +5,41 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+	background: #f5f5f5;
+}
+ 
+.slick-prev{
+	left: -11px!important; 
+	z-index: 3;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.slick-next {
+	right: 18px!important;
+}
+
+.slick-prev:before, .slick-next:before {
+	font-size: 33px!important;
+	opacity: 1!important;
+}
+
+.slick-slide img {
+	width: 172px!important;
+}
+
+.SecondItems{
+	display: flex!important;
+	flex-direction: column;
+	text-align: left;
+}
+
+.titleItems{
+	font-size: 16px;
+	-webkit-line-clamp: 1;
+	
+}
+
+.SecondItems p{
+	font-size: 12px;
+	color: #8e8e93;
+	margin: 0;
 }

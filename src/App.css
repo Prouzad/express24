@@ -1,12 +1,5 @@
 .App {
   text-align: center;
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-	align-items: center;
+
 }
 
-.bodyBox{
-	display: flex;
-	width: 1144px;
-}
