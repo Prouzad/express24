@@ -7,6 +7,7 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import MyButton from '../Button/Button';
 import Data from '../Data';
+
 import Cards from '../Cards/Card';
 
 const category = [
@@ -46,7 +47,7 @@ function Main() {
 							)
 						})}
 					</div>
-					<MyButton title={`Eщё ${"\u2304"}`}/>
+					<MyButton title={`Eщё ${"ᐯ"}`}/>
 				</div>
 				<div className={style.cardsBox}>
 					{Data.map((item, idx)=>{

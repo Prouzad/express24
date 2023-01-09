@@ -2,7 +2,7 @@ import SearchIcon from '@mui/icons-material/Search';
 import AccountBoxOutlinedIcon from '@mui/icons-material/AccountBoxOutlined';
 import PlaceOutlinedIcon from '@mui/icons-material/PlaceOutlined';
 import style from './Header.module.css';
-import logo from '../../asstes/logo/Express24.png'
+import logo from '../../asstes/logo/svg.svg'
 import { grey } from '@mui/material/colors';
 
 function Header() {
@@ -32,6 +32,7 @@ function Header() {
 				<AccountBoxOutlinedIcon sx={{color: grey[500]}}/>
 				Профиль
 			</div>
+			
     </div>
   );
 }
