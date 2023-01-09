@@ -7,6 +7,7 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import MyButton from '../Button/Button';
 import Data from '../Data';
+
 import Cards from '../Cards/Card';
 import { FormControl, InputLabel, Select, MenuItem } from '@mui/material';
 import { grey } from '@mui/material/colors';
@@ -63,6 +64,7 @@ function Main() {
 						 </div>
 						</Select>
       </FormControl>
+
 				</div>
 				<div className={style.cardsBox}>
 					{Data.map((item, idx)=>{

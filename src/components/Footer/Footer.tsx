@@ -26,7 +26,7 @@ function Footer() {
 							<img src={telegram} alt="telegram" />
 						</div>
 						<div className={style.text}>
-						&copy; 2023 Express24
+						&copy; {(new Date().getFullYear())} Express24
 						</div>
 					</div>
 				</div>
