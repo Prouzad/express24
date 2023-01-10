@@ -16,7 +16,7 @@ function Header() {
 				</div>
 				<div className={style.searchBox}>
 					<form>
-						<SearchIcon sx={{color: grey[500]}}/>
+						<SearchIcon sx={{color: grey[500], minWidth: '17px'}}/>
 						<input type={'text'} placeholder='Заведение, блюдо, товар или кухня'/>
 						<button>Найти</button>
 					</form>

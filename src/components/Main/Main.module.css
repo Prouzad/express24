@@ -45,7 +45,12 @@
 .cardsBox{
 	display: flex;
 	flex-wrap: wrap;
-	justify-content: center;
 	width: 100%;
 	gap: 36px;
+}
+
+@media screen and (max-width: 766px ) {
+	.cardsBox{
+		justify-content: center;
+	}
 }
