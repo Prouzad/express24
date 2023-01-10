@@ -5,8 +5,9 @@
 	align-items: center;
 	justify-content: space-between;
 	border-bottom: 1px solid #f6f6fb;
-	position: sticky;
+	position: fixed;
 	background: white;
+	z-index: 2;
 }
 
 .leftBox{
@@ -19,25 +20,34 @@
 	margin-left: 45px;
 }
 
+.logo{
+	max-width:30%;
+	min-width: 120px;
+}
+
 .logo img{
 	height: 49px;
-	width: 172px;
+	width: 100%;
+}
+
+.searchBox{
+	max-width: 35%;
 }
 
 .searchBox form{
 	display: flex;
 	align-items: center;
-	font-size: 16px;
+	font-size: 1rem;
 	flex: 1;
-	font-size: 16px;
 	border: 1px solid #d1d1d6;
 	border-radius: 12px;
-	width: 100%;
+	max-width: 100%;
 	padding: 4px 4px 4px 12px;
 
 }
 
 .searchBox input{
+	width: 60%;
 	outline: none;
 	border: none;	
 	padding: 10px 20px;
@@ -52,7 +62,6 @@
 	line-height: 18px;
 	cursor: pointer;
 	overflow: hidden;
-	width: fit-content;
 	border-radius: 12px;
 	letter-spacing: .2px;
 }
@@ -63,10 +72,12 @@
 }
 
 .locationBox{
-	max-width: 782px;
+	max-width: 35%;
+	min-width: 250px;
 	border-radius: 12px;
 	background: #ececf1;
 	border: none;
+	overflow: hidden;
 	color: #1a1a18;
 	cursor: pointer;
 	border-radius: 12px;
@@ -81,7 +92,7 @@
 
 .location{
 	padding: 14px;
-	font-size: 16px;
+	font-size: 1rem;
 	font-weight: 600;
 	line-height: 20px;
 	display: flex;
@@ -90,7 +101,7 @@
 }
 
 .rightBox{
-	width: 5%;
+	width: 7%;
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
@@ -99,4 +110,6 @@
 	border-left: 1px solid #f6f6fb;
 	color: rgb(122, 122, 122);
 	padding-right: 15px;
+	font-size: 1rem;
 }
+

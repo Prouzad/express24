@@ -10,7 +10,6 @@ import Data from '../Data';
 
 import Cards from '../Cards/Card';
 import { FormControl, InputLabel, Select, MenuItem } from '@mui/material';
-import { grey } from '@mui/material/colors';
 
 const category = [
 	'Избранные',
@@ -25,6 +24,7 @@ const category = [
 
 
 function Main() {
+
   return (
     <div className={style.Main}>
 			<div className={style.bodyBox}>
@@ -49,7 +49,7 @@ function Main() {
 							)
 						})}
 					</div>
-					<FormControl sx={{ m: 1, minWidth: 120, background: '#ebebf1', border: 'none', borderRadius: '14px' }} size="small">
+					<FormControl sx={{maxHeight:'50px', m: 1, minWidth: 120, background: '#ebebf1', border: 'none', borderRadius: '14px' }} size="small">
 						<InputLabel id="demo-simple-select-label" sx={{color: 'black' }}>Ещё</InputLabel>
 						<Select
 							labelId="demo-simple-select-label"

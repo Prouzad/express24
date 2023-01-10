@@ -1,7 +1,10 @@
 .bodyBox{
-	width: 1144px;
+	max-width: 1144px;
 	margin: auto;
-	margin-top: 50px;
+	padding-top: 120px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
 }
 
 .SecondBoxTitle{
@@ -36,11 +39,13 @@
 .btns{
 	display: flex;
 	gap: 14px;
+	flex-wrap: wrap;
 }
 
 .cardsBox{
 	display: flex;
 	flex-wrap: wrap;
+	justify-content: center;
 	width: 100%;
 	gap: 36px;
 }

@@ -29,7 +29,7 @@ function Header() {
 				</div>
 			</div>
 			<div className={style.rightBox}>
-				<AccountBoxOutlinedIcon sx={{color: grey[500]}}/>
+				<AccountBoxOutlinedIcon sx={{color: grey[500], width: '100%'}}/>
 				Профиль
 			</div>
 			
