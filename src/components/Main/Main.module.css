@@ -44,13 +44,33 @@
 
 .cardsBox{
 	display: flex;
+	justify-content: center;
+}
+
+.cardsContainer{
+	display: flex;
 	flex-wrap: wrap;
 	width: 100%;
 	gap: 36px;
 }
 
-@media screen and (max-width: 766px ) {
-	.cardsBox{
-		justify-content: center;
+@media screen and (max-width: 1166px ) {
+	
+	.cardsContainer{
+		width: 80%;
+	}
+
+	.selec{
+		width: 120px;
+	}
+
+	.btnsBox{
+		display: flex;
+		flex-direction: column;
+	}
+
+	.FormControl{
+		display: flex;
+		max-width: 150px;
 	}
 }

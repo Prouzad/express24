@@ -49,7 +49,7 @@ function Main() {
 							)
 						})}
 					</div>
-					<FormControl sx={{maxHeight:'50px', m: 1, minWidth: 120, background: '#ebebf1', border: 'none', borderRadius: '14px' }} size="small">
+					<FormControl className={style.FormControl} sx={{maxHeight:'50px', m: 1, minWidth: 120, background: '#ebebf1', border: 'none', borderRadius: '14px' }} size="small">
 						<InputLabel id="demo-simple-select-label" sx={{color: 'black' }}>Ещё</InputLabel>
 						<Select
 							labelId="demo-simple-select-label"
@@ -67,9 +67,11 @@ function Main() {
 
 				</div>
 				<div className={style.cardsBox}>
-					{Data.map((item, idx)=>{
-						return <Cards item={item}/>
-					})}
+					<div className={style.cardsContainer}>
+							{Data.map((item, idx)=>{
+							return <Cards item={item}/>
+						})}
+					</div>
 				</div>
 			</div>
     </div>

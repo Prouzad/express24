@@ -22,7 +22,7 @@ const images = [
 // eslint-disable-next-line array-callback-return
 const imgArray = images.map((item)=>{
 	return (
-		<div className='SecondItems' style={{height: '121px', width: '178px', marginLeft: '25px'}}>
+		<div className='SecondItems' style={{height: '121px', maxWidth: '178px', marginLeft: '25px'}}>
 			<img src={item.img} alt={item.title} style={{height: '110px', borderRadius: '10px'}} />
 			<div className='titleItems'>{item.title}</div>
 			<p>{item.category}</p>

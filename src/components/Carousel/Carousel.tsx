@@ -11,6 +11,7 @@ function Carousels(props: {items: JSX.Element[]}) {
 	useEffect(()=>{
 		console.log(sliderState, state)
 		const width = Number(state)
+		if(width < 350) return setState(1)
 		if(width < 600) return setState(2)
 		if(width < 800) return setState(3)
 		if(width < 1100) return setState(4)
