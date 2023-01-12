@@ -74,3 +74,16 @@
 		max-width: 150px;
 	}
 }
+
+
+@media screen and (max-width: 830px) {
+	.bodyBox{
+		padding-top: 150px;
+	}
+}
+
+@media screen and (max-width: 606px) {
+	.bodyBox{
+		padding-top: 210px;
+	}
+}

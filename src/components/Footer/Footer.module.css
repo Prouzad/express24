@@ -13,11 +13,12 @@
 	display: flex;
 	flex-direction: column;
 	justify-content: space-between;
+	flex-wrap: wrap;
 }
 
 .navBox{
 	display: flex;
-	
+	flex-wrap: wrap;
 }
 
 .navs{
@@ -34,6 +35,7 @@
 .social{
 	display: flex;
 	align-items:center;
+	flex-wrap: wrap;
 }
 
 .socials{
